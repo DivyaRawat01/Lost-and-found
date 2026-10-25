@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; background: #f3f5f9; color: #222; }
+.navbar { background: #1f3a5f; color: #fff; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; }
+.navbar a { color: #fff; text-decoration: none; margin-left: 16px; }
+.navbar a:hover { text-decoration: underline; }
+.container { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+.card { background: #fff; border-radius: 8px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+.narrow { max-width: 420px; margin: 40px auto; }
+h1, h2, h3 { margin-top: 0; }
+label { display: block; margin: 12px 0 4px; font-weight: bold; font-size: 14px; }
+input[type=text], input[type=password], input[type=email], input[type=date], select, textarea {
+    width: 100%; padding: 9px; border: 1px solid #bbb; border-radius: 4px; font-size: 14px; }
+textarea { height: 80px; resize: vertical; }
+.btn { display: inline-block; background: #1f3a5f; color: #fff; border: none; padding: 9px 18px; border-radius: 4px;
+       cursor: pointer; font-size: 14px; text-decoration: none; margin-top: 14px; }
+.btn:hover { background: #2c5282; }
+.btn-green { background: #2f855a; }
+.btn-red { background: #c53030; }
+.btn-small { padding: 5px 10px; margin-top: 0; font-size: 13px; }
+.error { background: #fed7d7; color: #9b2c2c; padding: 10px; border-radius: 4px; margin-bottom: 12px; }
+.success { background: #c6f6d5; color: #276749; padding: 10px; border-radius: 4px; margin-bottom: 12px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 9px; border-bottom: 1px solid #ddd; text-align: left; font-size: 14px; vertical-align: top; }
+th { background: #e8edf5; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 12px; color: #fff; }
+.lost { background: #c53030; }
+.found { background: #2b6cb0; }
+.open { background: #dd6b20; }
+.resolved { background: #2f855a; }
+.search-bar { display: flex; gap: 8px; }
+.search-bar input, .search-bar select { width: auto; flex: 1; }
+.search-bar .btn { margin-top: 0; }
+.inline { display: inline; }
+.links a { margin-right: 10px; }
+.center { text-align: center; }
