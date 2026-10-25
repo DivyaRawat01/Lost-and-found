@@ -61,8 +61,6 @@ MVC mapping:
 
 ```
 LostAndFound
-├── database
-│   └── schema.sql
 ├── src/main/java/com/lostfound
 │   ├── DBConnection.java        # JDBC connection utility
 │   ├── Item.java                # bean for one row of items (+ HTML escape helper)
@@ -83,8 +81,7 @@ LostAndFound
 │   ├── items.jsp
 │   ├── adminLogin.jsp
 │   └── adminDashboard.jsp
-├── pom.xml                      # optional (Maven build)
-└── README.md
+
 ```
 
 ---
